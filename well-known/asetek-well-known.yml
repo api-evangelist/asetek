@@ -1,0 +1,12 @@
+generated: '2026-07-18'
+method: probed
+source: live probes of https://www.asetek.com/.well-known/*
+host: https://www.asetek.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+notes: No .well-known discovery documents published. Asetek is a hardware manufacturer with no public developer API surface.

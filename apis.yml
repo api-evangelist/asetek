@@ -1,8 +1,25 @@
 aid: asetek
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/asetek.png
 name: Asetek
-description: 'Asetek is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Asetek designs and builds liquid cooling and thermal-management technology. Founded in 2000
+  and headquartered in Aalborg, Denmark, the company pioneered all-in-one (AIO) closed-loop liquid coolers
+  for enthusiast and gaming PCs and supplies OEM cooling to major PC and workstation brands. Its data-center
+  and high-performance-computing business delivers direct-to-chip liquid cooling for servers and racks, and
+  its Asetek SimSports division makes premium sim-racing hardware such as force-feedback wheelbases and load-cell
+  pedals. Asetek is a hardware manufacturer and does not currently publish a public developer API, developer
+  portal, or SDKs; this profile was surfaced as a portfolio company of Northzone and enriched with what is
+  publicly verifiable (domain-security posture).'
 url: https://raw.githubusercontent.com/api-evangelist/asetek/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Hardware
+- Liquid Cooling
+- Thermal Management
+- Data Center
+- High Performance Computing
+- Sim Racing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/asetek-domain-security.yml
 - type: Website
   url: http://www.asetek.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
