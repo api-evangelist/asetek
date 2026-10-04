@@ -47,7 +47,7 @@ tags:
 - Hardware
 - Liquid Cooling
 - Thermal Management
-- Data-Center
+- Data Center
 - High Performance Computing
 - Sim Racing
 tags_raw:
@@ -59,6 +59,7 @@ tags_raw:
 - Data Center
 - High Performance Computing
 - Sim Racing
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
